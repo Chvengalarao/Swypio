@@ -99,6 +99,11 @@ function loadTransactions(){
   });
 }
 
+function shareWhatsApp(link){
+  let url = "https://wa.me/?text=Pay here: " + link;
+  window.open(url);
+}
+
 loadTransactions();
 
 </script>
