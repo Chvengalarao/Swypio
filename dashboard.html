@@ -75,7 +75,8 @@ function createLink(){
     method:"POST",
     body: JSON.stringify({
       action:"create_link",
-      amount: amount
+      amount: amount,
+      user_id: "U1001"
     })
   })
   .then(res=>res.json())
